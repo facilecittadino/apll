@@ -4,7 +4,7 @@
 // ==============================
 
 // ---------- CONFIG ----------
-const ENABLE_STATUS_BALL = fals;
+const ENABLE_STATUS_BALL = false;
 const ENABLE_DRAG = true;
 
 // Storage key (same position across all pages)
