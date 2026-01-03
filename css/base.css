@@ -59,7 +59,7 @@ img,svg,video{ display:block; max-width:100%; height:auto; }
 .page::before{
   content:"";
   position:fixed; inset:0;
-  background: url('../logo.png') center / max(58vw, 460px) no-repeat;
+  background: url('../logo.jpeg') center / max(58vw, 460px) no-repeat;
   opacity:.25;
   filter: grayscale(20%) contrast(100%);
   pointer-events:none;
@@ -125,3 +125,13 @@ select{ background:#fff; }
 @media (prefers-reduced-motion: reduce){
   *{ animation-duration:0.001ms !important; animation-iteration-count:1 !important; transition-duration:0.001ms !important; scroll-behavior:auto !important; }
 }
+
+.seo-intro{
+  max-width: 900px;
+  margin: 12px auto 0;
+  padding: 0 16px;
+  font-size: 14px;
+  line-height: 1.5;
+  opacity: 0.85;
+}
+
