@@ -4,20 +4,67 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title data-i18n="nav.brand">AliPerLaLiberta — CAF · Patronato</title>
-  <meta name="description" content="AliPerLaLiberta — CAF, Patronato, Assistenza Legale, Corsi, Creazione Siti Web, Biglietti & E-Visa." />
-  <link rel="preconnect" href="https://www.google.com" crossorigin>
-  <link rel="preconnect" href="https://maps.googleapis.com" crossorigin>
-  <link rel="preconnect" href="https://maps.gstatic.com" crossorigin>
-  <!-- Styles: main.css imports base / navbar / drawer / hero / welcome (+ footer.css already imported by you) -->
+
+  <!-- TITLE -->
+  <title data-i18n="nav.brand">
+    Ali Per La Liberta (APLL) — CAF & Patronato in Lecce
+  </title>
+
+  <!-- DESCRIPTION -->
+  <meta
+    name="description"
+    content="Ali Per La Liberta (APLL) is a CAF & Patronato service center in Lecce, Italy. We provide CAF tax assistance, Patronato support, legal assistance, training courses, website creation, and tickets & e-Visa support."
+  />
+
+  <!-- KEYWORDS -->
+  <meta
+    name="keywords"
+    content="
+apll, apll caf, aliperlaliberta, ali per la liberta, aliperlaliberta caf,
+caf lecce, patronato lecce, caf patronato lecce,
+caf per stranieri, patronato per stranieri, caf multilingua, caf per immigrati
+"
+  />
+
+  <!-- CANONICAL -->
+  <link rel="canonical" href="https://aliperlaliber.it/" />
+
+  <!-- OPEN GRAPH -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="APLL CAF & Patronato Lecce — Ali Per La Liberta" />
+  <meta
+    property="og:description"
+    content="Official APLL CAF & Patronato services in Lecce, Italy. CAF, Patronato, Legal Support, Training, Websites & E-Visa assistance."
+  />
+  <meta property="og:url" content="https://aliperlaliber.it/" />
+  <meta property="og:image" content="https://aliperlaliber.it/512x512.jpg" />
+  <meta property="og:image:width" content="512" />
+  <meta property="og:image:height" content="512" />
+
+  <!-- TWITTER -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="APLL CAF & Patronato Lecce" />
+  <meta
+    name="twitter:description"
+    content="Ali Per La Liberta offers CAF, Patronato, legal assistance, training courses, website creation, and e-Visa support in Lecce."
+  />
+  <meta name="twitter:image" content="https://aliperlaliber.it/512x512.jpg" />
+
+  <!-- PERFORMANCE -->
+  <link rel="preconnect" href="https://www.google.com" crossorigin />
+  <link rel="preconnect" href="https://maps.googleapis.com" crossorigin />
+  <link rel="preconnect" href="https://maps.gstatic.com" crossorigin />
+
+  <!-- STYLES -->
   <link rel="stylesheet" href="/css/main.css" />
 </head>
 <body>
+  
 
   <!-- First-visit Welcome Overlay (language preselect, saves on Continue) -->
   <div id="welcomeOverlay" class="welcome-overlay" hidden>
     <div class="welcome-card" role="dialog" aria-modal="true" aria-labelledby="welcomeTitle">
-      <h2 id="welcomeTitle">Welcome to our official website</h2>
+      <h2 id="welcomeTitle">Welcome to Ali Per La Liberta (APLL)</h2>
       <p class="welcome-note">Please select your preferred language to continue.</p>
 
       <label for="welcomeLang" class="sr-only">Select language</label>              
@@ -36,7 +83,7 @@
           <a class="brand-logo" href="/" aria-label="AliPerLaLiberta Home">
             <img src="logo.jpeg" alt="AliPerLaLiberta logo" decoding="async" />
           </a>
-          <span class="brand-name" data-i18n="nav.brand">AliPerLaLiberta</span>
+          <span class="brand-name">Ali Per La Liberta</span>
         </div>
 
         <!-- Center: Desktop links (with desktop language selector inside the list for alignment) -->
@@ -164,6 +211,9 @@
 
     <!-- Main Content -->
     <main id="main" class="content" role="main">
+      <p class="seo-intro">
+  Ali Per La Liberta (APLL) is a CAF & Patronato service center in Lecce, Italy.
+</p>
 
       <!-- Hero 1 — CAF -->
       <section class="hero">
@@ -190,7 +240,7 @@
       <!-- Hero 2 — Patronato -->
       <section class="hero">
         <div class="hero-card">
-          <h1 data-i18n="services.patronato.title">Patronato</h1>
+          <h2 data-i18n="services.patronato.title">Patronato</h2>
           <p data-i18n="services.patronato.desc">
             Offriamo supporto per pensioni, indennità, disoccupazione e altre pratiche previdenziali o assistenziali con consulenza personalizzata.
           </p>
@@ -212,7 +262,7 @@
       <!-- Hero 3 — Assistenza Legale -->
       <section class="hero">
         <div class="hero-card">
-          <h1 data-i18n="services.legal.title">Assistenza Legale / Supporto</h1>
+          <h3 data-i18n="services.legal.title">Assistenza Legale / Supporto</h3>
           <p data-i18n="services.legal.desc">
             Un aiuto legale chiaro e accessibile per contratti, documenti, vertenze o problemi legati ai diritti del lavoro e civili.
           </p>
@@ -234,7 +284,7 @@
       <!-- Hero 4 — Corsi di Formazione -->
       <section class="hero">
         <div class="hero-card">
-          <h1 data-i18n="services.corsi.title">Corsi di Formazione🔴</h1>
+          <h4 data-i18n="services.corsi.title">Corsi di Formazione</h4>
           <p data-i18n="services.corsi.desc">
             Corsi professionali e aggiornamenti formativi per migliorare le competenze e trovare nuove opportunità di lavoro.
           </p>
@@ -257,7 +307,7 @@
       <!-- Hero 5 — Creazione Siti Web -->
       <section class="hero">
         <div class="hero-card">
-          <h1 data-i18n="services.web.title">Creazione Siti Web🔴</h1>
+          <h5 data-i18n="services.web.title">Creazione Siti Web</h5>
           <p data-i18n="services.web.desc">
             Realizziamo siti web professionali e moderni per aziende, freelance o piccoli business, curando design e funzionalità.
           </p>
@@ -281,7 +331,7 @@
       <!-- Hero 6 — Biglietti & E-Visa -->
       <section class="hero">
         <div class="hero-card">
-          <h1 data-i18n="services.biglietti.title">Biglietti & E-Visa Supporto🔴</h1>
+          <h6 data-i18n="services.biglietti.title">Biglietti & E-Visa Supporto</h6>
           <p data-i18n="services.biglietti.desc">
             Prenotazioni per treni, autobus e aerei. Aiuto anche per ottenere eVisa per chi viaggia all’estero in modo rapido e sicuro.
           </p>
